@@ -1,9 +1,15 @@
+<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='UTF-8' />
     <meta name='apple-mobile-web-app-title' content='Happy Valentines Day' />
 
-    <title>From $(hostname -f)</title>
+    <title>Happy Valentines Day</title>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        document.title = 'From ' + window.location.hostname;
+      });
+    </script>
 
     <link
       rel='stylesheet'
